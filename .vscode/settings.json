@@ -1,0 +1,14 @@
+{
+  "java.project.sourcePaths": ["src", "lib"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": ["lib/**/*.jar"],
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "${workspaceFolder:MatchTracker}/db/test.db",
+      "name": "test"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}
